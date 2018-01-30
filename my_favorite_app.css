@@ -1,4 +1,4 @@
-* {
+#comments * {
     outline: 1px solid red !important
 }
 
@@ -6,22 +6,32 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
-    box-sizing: border-box;
+    margin: 100px 40px 100px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-align: left;
+}
+
+h1 {
+    background-color: #33bebe;
+    color: white;
+    font-size: 40px;
 }
 
 .screenshot {
-    max-width: 460px;
-    height: 314px;
+    max-width: 100mm;
+    height: 70%;
     width: 381px;
 }
 
 .description {
     max-width: 705px;
+    margin: 20px 30px 20px 30px;
+    font-size: 25px;
+    color: #7c8b88;
 }
-.app{
-  display: flex;;
-}
-h1{
-  background-color: #2fbebd;
-  color: white;
+
+.app {
+    display: flex;
+    ;
 }
